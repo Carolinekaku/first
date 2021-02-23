@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T04:01:16.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="2283KUdR1Xpqc_S1y0-X" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T04:09:50.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="yIf88bTk_mYaCK_3dqo3" version="14.4.2" type="github">
   <diagram name="企業體合併" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1483" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,7 +163,7 @@
           <mxGeometry x="1940" y="1022" width="120" height="58" as="geometry" />
         </mxCell>
         <mxCell id="al9OcXqiklJtlpv-rNFx-130" value="domain-module" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;gradientColor=none;align=left;width=110;height=30;" vertex="1" parent="1">
-          <mxGeometry x="529" y="1270" width="701" height="410" as="geometry" />
+          <mxGeometry x="730" y="1270" width="500" height="410" as="geometry" />
         </mxCell>
         <mxCell id="al9OcXqiklJtlpv-rNFx-131" value="集團資訊" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeColor=#000000;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="780" y="1335" width="130" height="60" as="geometry" />
@@ -446,25 +446,6 @@
             <mxPoint x="1543.25" y="962" as="sourcePoint" />
             <mxPoint x="1710" y="962" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="al9OcXqiklJtlpv-rNFx-319" value="企業體證號成員" style="ellipse;whiteSpace=wrap;html=1;align=center;strokeColor=#000000;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1465" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="al9OcXqiklJtlpv-rNFx-333" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="al9OcXqiklJtlpv-rNFx-132" target="al9OcXqiklJtlpv-rNFx-319">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="855" y="1405" as="sourcePoint" />
-            <mxPoint x="855" y="1475" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="al9OcXqiklJtlpv-rNFx-334" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="al9OcXqiklJtlpv-rNFx-333">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="-10" y="-5" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="al9OcXqiklJtlpv-rNFx-335" value="n" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="al9OcXqiklJtlpv-rNFx-333">
-          <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="10" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="al9OcXqiklJtlpv-rNFx-337" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#FF0000;" edge="1" parent="1">
