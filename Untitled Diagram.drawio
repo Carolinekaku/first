@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T04:09:50.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="yIf88bTk_mYaCK_3dqo3" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T04:21:55.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="0UNxlCAwKCnV7gPuxseG" version="14.4.2" type="github">
   <diagram name="企業體合併" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1221" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,8 @@
         <mxCell id="al9OcXqiklJtlpv-rNFx-42" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="al9OcXqiklJtlpv-rNFx-41">
           <mxGeometry x="235" y="40" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="al9OcXqiklJtlpv-rNFx-43" value="點選成員退出" style="rounded=1;" vertex="1" parent="al9OcXqiklJtlpv-rNFx-41">
-          <mxGeometry x="195" y="100" width="110" height="50" as="geometry" />
+        <mxCell id="al9OcXqiklJtlpv-rNFx-43" value="在集團篩選出來的列表中，&#xa;於維護作業欄位中點選&#xa;「● 成員退出」功能。" style="rounded=1;" vertex="1" parent="al9OcXqiklJtlpv-rNFx-41">
+          <mxGeometry x="170" y="100" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="al9OcXqiklJtlpv-rNFx-45" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="al9OcXqiklJtlpv-rNFx-41" source="al9OcXqiklJtlpv-rNFx-43" target="al9OcXqiklJtlpv-rNFx-230">
           <mxGeometry relative="1" as="geometry">
