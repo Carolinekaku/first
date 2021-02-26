@@ -1,296 +1,150 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T03:19:09.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="UdN3wNRJmbB8eCu4onqJ" version="14.4.2" type="github">
-  <diagram id="6aZPbNo76P8Zh9FayG7Q" name="Page-1">
-    <mxGraphModel dx="1483" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-02-26T07:10:09.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="9XNkN88uob1bfkjwaPT0" version="14.4.2" type="github">
+  <diagram id="6aZPbNo76P8Zh9FayG7Q" name="企業體合併">
+    <mxGraphModel dx="1730" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rIFzC00tfs55tLRHj-PR-1" value="client" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="630" y="180" width="664.5" height="820" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-42" value="client" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="690" y="410" width="614.5" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-7" value="1.使用者身分&lt;br&gt;2.查詢參數" style="html=1;rounded=0;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="rIFzC00tfs55tLRHj-PR-1" vertex="1">
-          <mxGeometry x="490.63" y="238" width="80" height="50" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-43" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-42">
+          <mxGeometry x="265.63" y="40" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-18" value="瀏覽既有證照-維護證照列表" style="rounded=1;" parent="rIFzC00tfs55tLRHj-PR-1" vertex="1">
-          <mxGeometry x="245.63" y="344" width="170" height="50" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-44" value="在企業體篩選出來的列表中，&#xa;於查詢作業欄位中點選&#xa;「● EBS查詢」功能。" style="rounded=1;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-42">
+          <mxGeometry x="200.63" y="100" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-29" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;" parent="rIFzC00tfs55tLRHj-PR-1" source="rIFzC00tfs55tLRHj-PR-18" edge="1">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-45" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sL4LDpN6sf0cQuzgm8Oe-42" source="sL4LDpN6sf0cQuzgm8Oe-44" target="sL4LDpN6sf0cQuzgm8Oe-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="342.38" y="303.9999999999998" as="sourcePoint" />
-            <mxPoint x="329.941554201132" y="440.191554201132" as="targetPoint" />
+            <mxPoint x="250.63" y="208" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-31" value="瀏覽證號基本資料查詢畫面" style="rounded=1;" parent="rIFzC00tfs55tLRHj-PR-1" vertex="1">
-          <mxGeometry x="240.63" y="560" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-32" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="rIFzC00tfs55tLRHj-PR-1" edge="1">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FF0000;" edge="1" parent="sL4LDpN6sf0cQuzgm8Oe-42" source="sL4LDpN6sf0cQuzgm8Oe-43" target="sL4LDpN6sf0cQuzgm8Oe-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="325.2500000000001" y="610" as="sourcePoint" />
-            <mxPoint x="325.2500000000001" y="660" as="targetPoint" />
+            <mxPoint x="280.63" y="172" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-49" value="確認" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="sL4LDpN6sf0cQuzgm8Oe-42" source="sL4LDpN6sf0cQuzgm8Oe-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350.63" y="233" as="sourcePoint" />
+            <mxPoint x="450.63" y="233" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-85" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="rIFzC00tfs55tLRHj-PR-1" vertex="1">
-          <mxGeometry x="254.99999999999997" y="60" width="30" height="30" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-50" value="1.使用者身分&lt;br&gt;2.企業體PK" style="html=1;rounded=0;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-42">
+          <mxGeometry x="450.63" y="208" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-86" value="輸入查詢條件" style="rounded=1;" parent="rIFzC00tfs55tLRHj-PR-1" vertex="1">
-          <mxGeometry x="215" y="140" width="110" height="50" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-61" value="確認執行EBS查詢功能" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;align=left;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-42">
+          <mxGeometry x="215.63" y="202" width="130" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-87" value="點選&#xa;&quot;列出【既有證號維護-證號列表】&#xa;條件的資料&quot;" style="rounded=1;" parent="rIFzC00tfs55tLRHj-PR-1" vertex="1">
-          <mxGeometry x="160" y="230" width="220" height="70" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-62" value="取消" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sL4LDpN6sf0cQuzgm8Oe-42" source="sL4LDpN6sf0cQuzgm8Oe-61" target="sL4LDpN6sf0cQuzgm8Oe-43">
+          <mxGeometry x="-0.195" relative="1" as="geometry">
+            <mxPoint x="170.63" y="233" as="sourcePoint" />
+            <mxPoint x="170.63" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170.63" y="233" />
+              <mxPoint x="170.63" y="55" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-88" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" parent="rIFzC00tfs55tLRHj-PR-1" source="rIFzC00tfs55tLRHj-PR-86" target="rIFzC00tfs55tLRHj-PR-87" edge="1">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-162" value="瀏覽EBS內部帳號內容&#xa;及EBS服務項目查詢結果" style="rounded=1;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-42">
+          <mxGeometry x="200.63" y="310" width="174.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-101" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#FF0000;" edge="1" parent="sL4LDpN6sf0cQuzgm8Oe-42" source="sL4LDpN6sf0cQuzgm8Oe-162" target="sL4LDpN6sf0cQuzgm8Oe-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.63" y="430" as="targetPoint" />
+            <mxPoint x="280.63" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-102" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;align=center;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-42">
+          <mxGeometry x="270.69" y="420" width="34.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="sL4LDpN6sf0cQuzgm8Oe-87" target="sL4LDpN6sf0cQuzgm8Oe-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-89" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="rIFzC00tfs55tLRHj-PR-1" source="rIFzC00tfs55tLRHj-PR-87" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="57.370000000000005" y="68" as="sourcePoint" />
-            <mxPoint x="487.36999999999966" y="265" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-87" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(68 , 68 , 68)&quot;&gt;此功能內容在:&lt;br&gt;help_custom_base.pdf的70頁&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;size=20;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="430" y="422" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-90" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FF0000;" parent="rIFzC00tfs55tLRHj-PR-1" source="rIFzC00tfs55tLRHj-PR-85" target="rIFzC00tfs55tLRHj-PR-86" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-78.42" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-189" value="點選&quot;基本資料&quot;" style="rounded=1;" parent="rIFzC00tfs55tLRHj-PR-1" vertex="1">
-          <mxGeometry x="241.13" y="440" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-29" value="點選&quot;離開&quot;" style="rounded=1;" vertex="1" parent="rIFzC00tfs55tLRHj-PR-1">
-          <mxGeometry x="240.63" y="660" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-33" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;" edge="1" parent="rIFzC00tfs55tLRHj-PR-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="325" y="710" as="sourcePoint" />
-            <mxPoint x="325" y="750" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-36" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="rIFzC00tfs55tLRHj-PR-1">
-          <mxGeometry x="310.63" y="760" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-39" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rIFzC00tfs55tLRHj-PR-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410.6300000000001" y="467" as="sourcePoint" />
-            <mxPoint x="518" y="467" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-40" value="證號PK" style="html=1;rounded=0;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rIFzC00tfs55tLRHj-PR-1">
-          <mxGeometry x="521.2600000000002" y="440" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-41" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="rIFzC00tfs55tLRHj-PR-1" target="sL4LDpN6sf0cQuzgm8Oe-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="601.2600000000002" y="465" as="sourcePoint" />
-            <mxPoint x="750.6300000000001" y="465" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-41" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(68 , 68 , 68)&quot;&gt;此功能內容在:&lt;br&gt;help_custom_base.pdf的91頁&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;size=20;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="355" y="192" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-53" value="server" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="1294.5" y="180" width="260" height="820" as="geometry">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-98" value="server" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="1304.5" y="410" width="260" height="520" as="geometry">
             <mxRectangle x="1094.5" y="180" width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-54" value="查詢(篩選)證號列表" style="rounded=1;" parent="rIFzC00tfs55tLRHj-PR-53" vertex="1">
-          <mxGeometry x="55.5" y="238" width="140" height="50" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-99" value="查詢對應企業體之EBS資料" style="rounded=1;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-98">
+          <mxGeometry x="55.5" y="208" width="174.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-1" value="查詢證號詳細資訊" style="rounded=1;" vertex="1" parent="rIFzC00tfs55tLRHj-PR-53">
-          <mxGeometry x="55.5" y="440" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-23" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rIFzC00tfs55tLRHj-PR-53">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-103" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sL4LDpN6sf0cQuzgm8Oe-50" target="sL4LDpN6sf0cQuzgm8Oe-99">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-284.5" y="265" as="sourcePoint" />
-            <mxPoint x="-177.1300000000001" y="265" as="targetPoint" />
+            <mxPoint x="1270" y="643" as="sourcePoint" />
+            <mxPoint x="1360" y="642" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-24" value="1.使用者身分&lt;br&gt;2.查詢參數" style="html=1;rounded=0;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rIFzC00tfs55tLRHj-PR-53">
-          <mxGeometry x="-173.8699999999999" y="238" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-28" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rIFzC00tfs55tLRHj-PR-53" source="sL4LDpN6sf0cQuzgm8Oe-1">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-104" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="135.5" y="500" as="sourcePoint" />
-            <mxPoint x="-254.5" y="587" as="targetPoint" />
+            <mxPoint x="1443" y="668" as="sourcePoint" />
+            <mxPoint x="1072.38" y="745" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="125.5" y="587" />
+              <mxPoint x="1443" y="745" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-58" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rIFzC00tfs55tLRHj-PR-7" target="rIFzC00tfs55tLRHj-PR-54" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1260" y="443" as="sourcePoint" />
-            <mxPoint x="1350" y="442" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-59" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rIFzC00tfs55tLRHj-PR-54" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1420" y="470" as="sourcePoint" />
-            <mxPoint x="1062.38" y="545" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1420" y="545" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-61" value="證號資訊" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;swimlaneFillColor=#ffffff;shadow=0;sketch=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="170" width="190" height="632" as="geometry">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-108" value="企業體資訊" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;swimlaneFillColor=#ffffff;shadow=0;sketch=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="422" width="160" height="206" as="geometry">
             <mxRectangle x="1980" y="370" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-66" value="Major營運處" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="26" width="190" height="30" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-109" value="企業體名稱" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-108">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-62" value="證號" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="56" width="190" height="36" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-110" value="企業體代表證號" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-108">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-63" value="證號名稱" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="92" width="190" height="30" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-159" value="企業體major營運處" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-108">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-64" value="證號效力狀態" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="122" width="190" height="30" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-160" value="生效日期" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-108">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-65" value="證號營運處範圍" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="152" width="190" height="30" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-161" value="是否已設緩催拆" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-108">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-91" value="交易局代碼" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="182" width="190" height="30" as="geometry" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-111" value="內部EBS帳號設定值" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-108">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-69" value="近半年平均消費金額" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="212" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-67" value="近半年平均消費金額終止年月" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="242" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-101" value="證號地址郵遞區號" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="272" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-102" value="證號地址" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="302" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-106" value="證號總人數" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="332" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-108" value="證號年營收" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="362" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-109" value="證號成立日期" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="392" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-110" value="證號電話(一)(二)" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="422" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-107" value="證號傳真(一)(二)" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="452" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-104" value="證號網址" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="482" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-143" value="備註(公司資料)" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="512" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-144" value="緩催拆等級" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="542" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-135" value="緩催拆執行單位" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="572" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-100" value="證號資本額" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-61" vertex="1">
-          <mxGeometry y="602" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-76" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rIFzC00tfs55tLRHj-PR-54" edge="1">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-118" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#FF0000;" edge="1" parent="1">
           <mxGeometry x="-0.0661" y="10" width="160" relative="1" as="geometry">
-            <mxPoint x="1500" y="430" as="sourcePoint" />
-            <mxPoint x="1640" y="443" as="targetPoint" />
+            <mxPoint x="1540" y="650" as="sourcePoint" />
+            <mxPoint x="1660" y="550" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-79" value="&lt;font&gt;&lt;font color=&quot;#444444&quot; face=&quot;helvetica&quot;&gt;操作權限：&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#444444&quot; face=&quot;helvetica&quot;&gt;基本資料&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(68 , 68 , 68) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;與 聯絡人資料 功能操作權限相同如下：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#444444&quot; face=&quot;helvetica&quot;&gt;i. 總公司 權限人員，可以查詢到公司全部的證號資料。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#444444&quot; face=&quot;helvetica&quot;&gt;ii. 分公司權限人員，可以查詢到分公司旗下的證號資料。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#444444&quot; face=&quot;helvetica&quot;&gt;iii. 營運處權限人員，可以查詢到營運處下的證號資料。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#444444&quot; face=&quot;helvetica&quot;&gt;iv. 無以上權限人員，僅可查詢自己為主要負責服務人員證號資料。&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;size=20;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="340" y="300" width="280" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-145" value="&lt;span&gt;證號電話、證號傳真、負責人電話、備註&lt;/span&gt;各有兩個欄位" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;size=20;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="2000" y="527" width="120" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-146" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rIFzC00tfs55tLRHj-PR-110" target="rIFzC00tfs55tLRHj-PR-145" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1823.9999999999995" y="1621" as="sourcePoint" />
-            <mxPoint x="1900" y="1604.2352941176473" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-147" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rIFzC00tfs55tLRHj-PR-107" target="rIFzC00tfs55tLRHj-PR-145" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1870" y="793.5" as="sourcePoint" />
-            <mxPoint x="1930" y="939" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-148" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="rIFzC00tfs55tLRHj-PR-145" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1860" y="567" as="sourcePoint" />
-            <mxPoint x="1930" y="939" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-153" value="證號負責人資訊" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;swimlaneFillColor=#ffffff;shadow=0;sketch=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="860" width="190" height="452" as="geometry">
-            <mxRectangle x="1980" y="370" width="100" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-155" value="證號" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="26" width="190" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-156" value="證號名稱" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="62" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-170" value="負責人姓名" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="92" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-171" value="負責人出生日期" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="122" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-172" value="負責人部門" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="152" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-173" value="負責人職稱" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="182" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-174" value="負責人電話(一)(二)" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="212" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-175" value="負責人行動電話" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="242" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-176" value="負責人傳真" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="272" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-177" value="負責人Email信箱" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="302" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-178" value="負責人聯絡地址(目前)" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="332" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-182" value="負責人聯絡地址(前一次)" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="362" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-183" value="負責人聯絡地址修改日期" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="392" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-184" value="聯絡人出生日期" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" parent="rIFzC00tfs55tLRHj-PR-153" vertex="1">
-          <mxGeometry y="422" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rIFzC00tfs55tLRHj-PR-188" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="sL4LDpN6sf0cQuzgm8Oe-1">
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-130" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#FF0000;" edge="1" parent="1">
           <mxGeometry x="-0.0661" y="10" width="160" relative="1" as="geometry">
-            <mxPoint x="1500" y="453" as="sourcePoint" />
-            <mxPoint x="1650" y="470" as="targetPoint" />
+            <mxPoint x="1540" y="660" as="sourcePoint" />
+            <mxPoint x="1690" y="890" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-2" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#FF0000;" edge="1" parent="1">
-          <mxGeometry x="-0.0661" y="10" width="160" relative="1" as="geometry">
-            <mxPoint x="1500" y="680" as="sourcePoint" />
-            <mxPoint x="1640" y="930" as="targetPoint" />
-            <mxPoint as="offset" />
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-148" value="EBS服務項目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="832.5" width="160" height="100" as="geometry">
+            <mxRectangle x="1250" y="1624" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-149" value="內部EBS帳號設定值" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-148">
+          <mxGeometry y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-150" value="服務項目" style="text;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeColor=#000000;" vertex="1" parent="sL4LDpN6sf0cQuzgm8Oe-148">
+          <mxGeometry y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-155" value="P70文字說明表示可看到企業體的EBS內部帳號設定內容, 同時底下也列出服務項目的查詢結果&lt;br&gt;&lt;br&gt;問題：由於EBS帳號設定時並未提及EBS服務項目, 欲確認是否內部EBS帳號與EBS服務項目為一對多的關係，並且因不同EBS帳號設定有不同的服務項目？" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;size=20;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="820" width="233" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="sL4LDpN6sf0cQuzgm8Oe-156" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sL4LDpN6sf0cQuzgm8Oe-149" target="sL4LDpN6sf0cQuzgm8Oe-155">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1610" y="952.5" as="sourcePoint" />
+            <mxPoint x="1660" y="902.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
